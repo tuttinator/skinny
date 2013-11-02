@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name = "skinny"
+  s.name = "tuttinator-skinny"
   s.version = File.read(File.expand_path("../VERSION", __FILE__)).strip
   s.summary = "Thin WebSockets"
   s.description = "Simple, upgradable WebSockets for Thin."
 
-  s.author = "Samuel Cochran"
+  s.author = ["Caleb Tutty", "Samuel Cochran"]
   s.email = "sj26@sj26.com"
   s.homepage = "http://github.com/sj26/skinny"
 
