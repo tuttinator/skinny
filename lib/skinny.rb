@@ -1,3 +1,4 @@
+require 'skinny/version'
 require 'base64'
 require 'eventmachine'
 require 'digest/md5'
