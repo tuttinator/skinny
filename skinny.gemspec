@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.8.7'
 
   s.add_dependency "eventmachine", "~> 1.0.0"
-  s.add_dependency "thin", "~> 1.5.0"
+  s.add_dependency "thin", "> 1.5.0", "< 1.7.0"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rdoc"
